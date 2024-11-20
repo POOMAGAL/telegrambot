@@ -18,7 +18,7 @@ from google.cloud import speech_v1p1beta1 as speech
 logging.basicConfig(filename='example.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Replace 'YOUR_TOKEN' with the token you received from BotFather
-TOKEN = '6139694889:AAGkI50Z__Gc6DebkP94NBm1wzV9LSoHyOg'# TL bot
+TOKEN = 'telegram token bot'# TL bot
 
 
 
@@ -26,7 +26,7 @@ TOKEN = '6139694889:AAGkI50Z__Gc6DebkP94NBm1wzV9LSoHyOg'# TL bot
 GOOGLE_SHEETS_CREDENTIALS_FILE = 'credentials.json'
 
 
-GOOGLE_SHEET_NAME = 'Thought_Leadership_Master'
+GOOGLE_SHEET_NAME = 'MasterSheet'
 
 
 # Initialize Google Sheets API credentials
@@ -38,8 +38,7 @@ client = gspread.authorize(creds)
 sheet = client.open(GOOGLE_SHEET_NAME).sheet1
 
 # Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key
-# openai_api_key = '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' # our key
-openai_api_key = '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' # Deepa key
+openai_api_key = 'open ai key' # our key
 
 # Set up the OpenAI API client
 openai.api_key = openai_api_key

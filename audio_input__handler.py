@@ -4,10 +4,10 @@ from google.cloud import speech_v1p1beta1 as speech
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from pydub import AudioSegment
 import openai
-openai.api_key = "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"
+openai.api_key = "open ai token"
 
 # Replace 'YOUR_API_TOKEN' with the API token you received from the BotFather
-TOKEN = '6333318839:AAGCi43Z9JDRarEI-L8VmmodOoVxsuXAMNA'#greenybot
+TOKEN = 'bot token'#greenybot
 
 
 def start(update: Update, context: CallbackContext):
