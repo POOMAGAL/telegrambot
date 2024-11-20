@@ -1,0 +1,11 @@
+time                      # Built-in, no installation needed
+collections               # Built-in, no installation needed
+openai>=0.27.2            # Adjust the version if needed
+logging                   # Built-in, no installation needed
+gspread>=5.0.0            # Adjust the version if needed
+datetime                  # Built-in, no installation needed
+re                        # Built-in, no installation needed
+oauth2client>=4.1.3
+python-telegram-bot>=20.0 # Adjust the version based on compatibility
+google-api-python-client>=2.70.0
+google-cloud-speech>=2.23.0
